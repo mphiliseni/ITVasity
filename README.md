@@ -81,5 +81,4 @@ For any questions or feedback, please reach out to:
 ---
 
 Thank you for exploring the **FNB App Academy 2025** project. Happy coding!
-```
 
