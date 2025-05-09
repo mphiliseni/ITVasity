@@ -1,5 +1,4 @@
-<img width="1059" alt="Screenshot 2025-05-08 at 19 23 27" src="https://github.com/user-attachments/assets/9f827d71-3e20-40c3-9e26-ce0a9ab1a38e" />
-
+<img width="1440" alt="Screenshot 2025-05-09 at 17 04 41" src="https://github.com/user-attachments/assets/617ac91f-c232-49c5-80a3-25ac72ed66f5" />
 
 ```markdown
 # FNB App Academy 2025
