@@ -9,9 +9,9 @@
     <title>FNB Academy</title>
 </head>
 
-<body>
+<body class="bg-light">
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">FNB Academy</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
@@ -19,7 +19,7 @@
                 <span class="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarNav">
+            <div class="collapse navbar-collapse" id="navbarNav"> 
                 <ul class="navbar-nav">
                     <li class="nav-item">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
@@ -37,16 +37,177 @@
             </div>
         </div>
     </nav>
-    <div class="container">
-        <h1 class="text-center mt-5">Welcome to FNB Academy</h1>
-        <p class="text-center">Your journey to becoming a software developer starts here!</p>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="../Image/App Academy Banner.png" class="d-block w-100" alt="Slide 1">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Welcome to FNB Academy</h5>
+                    <p>Learn and grow with us.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                    <a href="#" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../Image/App Academy Banner.png" class="d-block w-100" alt="Slide 2">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Explore Our Courses</h5>
+                    <p>Find the right course for your career.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                    <a href="#" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="../Image/App Academy Banner.png" class="d-block w-100" alt="Slide 3">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5>Join Our Community</h5>
+                    <p>Connect with like-minded individuals.</p>
+                    <a href="#" class="btn btn-primary">Read More</a>
+                    <a href="#" class="btn btn-secondary">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <section class="container my-5">
+        <section class="container my-5">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+                    <img src="../Image/App-CTA-2.png" class="img-fluid rounded mx-auto d-block" alt="Section Image" style="width: 300px; height: 300px;">
+                </div>
+                <div class="col-md-6">
+                    <h2>About Our Academy</h2>
+                    <p>
+                        At FNB Academy, we are committed to providing high-quality education and training to help you achieve your goals. 
+                        Our courses are designed to cater to a wide range of interests and skill levels, ensuring that there is something for everyone.
+                    </p>
+                    <p>
+                        Join us today and take the first step towards a brighter future. Our experienced instructors and supportive community 
+                        are here to guide you every step of the way.
+                    </p>
+                    <a href="About.html" class="btn btn-primary">Learn More</a>
+                </div>
+            </div>
+        </section>
 
-        <img src="../Image/App Academy Banner.png" alt="fnb"
-            style="height: 400px; height: 400px; padding-bottom: 20px; display: block; margin-left: auto; margin-right: auto;">
-            <button btn class="btn btn-primary" style="display: block; margin-left: auto; margin-right: auto;">Join the
-                Conversation</button>
+        <section class="container my-5">
+            <h2 class="text-center mb-4">Our Courses</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../Image/fbn.jpg" class="card-img-top" alt="Course 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Web Development</h5>
+                            <p class="card-text">Learn the fundamentals of web development, including HTML, CSS, and JavaScript.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../Image/fbn.jpg" class="card-img-top" alt="Course 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Data Science</h5>
+                            <p class="card-text">Dive into data analysis, machine learning, and visualization techniques.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../Image/fbn.jpg" class="card-img-top" alt="Course 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Digital Marketing</h5>
+                            <p class="card-text">Master the art of online marketing, SEO, and social media strategies.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-12">
+                    <br class="my-4">
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../Image/fbn.jpg" class="card-img-top" alt="Course 4">
+                        <div class="card-body">
+                            <h5 class="card-title">Graphic Design</h5>
+                            <p class="card-text">Unleash your creativity with courses on design principles, tools, and techniques.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../Image/fbn.jpg" class="card-img-top" alt="Course 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Cybersecurity</h5>
+                            <p class="card-text">Learn how to protect systems and data from cyber threats and vulnerabilities.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card">
+                        <img src="../Image/fbn.jpg" class="card-img-top" alt="Course 6">
+                        <div class="card-body">
+                            <h5 class="card-title">Artificial Intelligence</h5>
+                            <p class="card-text">Explore the world of AI, including neural networks, NLP, and robotics.</p>
+                            <a href="#" class="btn btn-primary">View Details</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </section>
+        
+            <!--footer -->
+        <footer class="bg-light text-center text-lg-start">
+            <div class="container p-4">
+                <div class="row">
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">FNB Academy</h5>
+                        <p>
+                            Empowering individuals through quality education and training. Join us to unlock your potential and achieve your dreams.
+                        </p>
+                    </div>
+                    <div class="col-lg-4 col-md-6 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Quick Links</h5>
+                        <ul class="list-unstyled mb-0">
+                            <li><a href="#" class="text-dark">Home</a></li>
+                            <li><a href="About.html" class="text-dark">About</a></li>
+                            <li><a href="#" class="text-dark">Courses</a></li>
+                            <li><a href="#" class="text-dark">Contact</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-4 col-md-12 mb-4 mb-md-0">
+                        <h5 class="text-uppercase">Contact Us</h5>
+                        <p>Email: info@fnbacademy.com</p>
+                        <p>Phone: +123 456 7890</p>
+                        <p>Address: 123 Academy Street, City, Country</p>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center p-3 bg-dark text-white">
+                © 2023 FNB Academy. All Rights Reserved.
+            </div>
+        </footer>
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
             integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO"
             crossorigin="anonymous"></script>
 </body>
