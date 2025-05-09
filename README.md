@@ -1,4 +1,7 @@
 
+<img width="1440" alt="Screenshot 2025-05-09 at 17 07 13" src="https://github.com/user-attachments/assets/981c1622-c5f0-46e8-8100-54d08181b490" />
+
+
 # FNB Academy | IT Vasity Programme
 
 Welcome to the **FNB IT Vasity Programme** repository! This project is part of the FNB Academy initiative to nurture and grow IT skills among aspiring developers and IT professionals.
