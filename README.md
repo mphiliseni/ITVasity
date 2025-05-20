@@ -10,6 +10,13 @@
 <img width="1440" alt="Screenshot 2025-05-20 at 21 40 58" src="https://github.com/user-attachments/assets/391a3976-7ccf-4436-94e8-9be17fff38c6" />
 
 
+# Default page
+<img width="1437" alt="Screenshot 2025-05-20 at 23 02 03" src="https://github.com/user-attachments/assets/7ba71dae-ef28-42bc-b2e8-70e7a84575fc" />
+
+<img width="1440" alt="Screenshot 2025-05-20 at 23 02 43" src="https://github.com/user-attachments/assets/5d15cd28-0853-45e5-aae9-bf1c51eb07c8" />
+
+
+
 
 # FNB Academy | IT Vasity Programme
 
