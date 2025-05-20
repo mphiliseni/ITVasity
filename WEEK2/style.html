@@ -39,6 +39,7 @@
 <body class="container" style="padding-top: 5rem;">
 
     <!-- (CSS) Cascading Style Sheets -->
+     <div class="ShadedBlue">
     <h1 class="h1"><strong>Selectors</strong></h1>
     <p>
         CSS selectors identify specific HTML elements as targets for CSS styles. This topic covers how CSS selectors
@@ -46,7 +47,26 @@
         HTML elements. Selectors use a wide range of over 50 selection methods oﬀered by the CSS language, including
         elements, classes, IDs, pseudo-elements and pseudo-classes, and patterns.
     </p>
-    
+
+    <p style="margin: auto;">
+        CSS rules are the building blocks of CSS. A CSS rule consists of a selector and a declaration block. The
+        selector
+        is the HTML element that you want to style, and the declaration block contains one or more declarations that
+        specify the styles to apply to that element.
+    </p>
+     <pre>
+        div::after {
+            content: 'after';
+            color: red;
+            border: 1px solid red;
+        }
+        div {
+            color: black;
+            border: 1px solid black;
+            padding: 1px;
+        }
+     </pre>
+</div>
 
     <div class="shaded">
         <h1 class="h1"><strong>Shaded Class</strong></h1>
@@ -69,7 +89,7 @@
         </p>
     </div>
     <div class="shadedYellow">
-        <h1>Shaded Yellow Class</h1>
+        <h1 class="h1"><strong>Shaded Yellow Class</strong></h1>
         <p>
             This is a paragraph of text that is inside a div with a class of "shadedYellow". The background color of
             this
@@ -90,6 +110,8 @@
             radius
             are all the same for both classes.
         </p>
+    </div>
+        <div class="shadedBrown">
         <h1 class="h1"><strong>Class Name Selectors</strong></h1>
         <p>
             Class name selectors are used to select elements based on their class attribute. A class name selector
@@ -118,6 +140,8 @@
             radius
             to all elements with the class name "shaded".
         </p>
+    </div>
+    <div class="shadedParple">
         <h1 class="h1"><strong>Id Selectors</strong></h1>   
         <p>
             Id selectors are used to select elements based on their id attribute. An id selector is preceded by a
@@ -145,7 +169,7 @@
             to the element with the id "myDiv".
         </p>
     </div>
-
+    </div>
     <div class="ShadedGreen">
         <h1 class="h1"><strong>Class Name Selectors</strong></h1>
         <p>
