@@ -1,6 +1,11 @@
+# WEEK 1 FNB Academy | IT Vasity Programme
 
 <img width="1440" alt="Screenshot 2025-05-09 at 17 07 13" src="https://github.com/user-attachments/assets/981c1622-c5f0-46e8-8100-54d08181b490" />
 
+
+# Week 2
+
+<img width="1437" alt="Screenshot 2025-05-20 at 20 54 06" src="https://github.com/user-attachments/assets/72c96a2a-b34b-4c0b-aef3-9506e00d9ed0" />
 
 # FNB Academy | IT Vasity Programme
 
