@@ -30,3 +30,17 @@ body {
     .ShadeGreen{
     background: greenyellow;
     }
+    .ShadedBlue{
+        background: rgb(207, 4, 129);
+        color: white;
+    }
+    .shadedBrown {
+        background: brown;
+        color: white;
+        margin-bottom: 4px;
+    }
+    .shadedParple {
+        background: purple;
+        color: white;
+        margin-bottom: 4px;
+    }
