@@ -86,6 +86,24 @@
             style, and the declaration block contains one or more declarations that specify the styles to apply to
             that
             element.
+
+            <!-- more rules -->
+            <pre>
+                div::after {
+                    content: 'after';
+                    color: red;
+                    border: 1px solid red;
+                }
+                div {
+                    color: black;
+                    border: 1px solid black;
+                    padding: 1px;
+                }
+                div::before {
+                    content: 'before';
+                    color: green;
+                    border: 1px solid green;
+                }
         </p>
     </div>
     <div class="shadedYellow">
