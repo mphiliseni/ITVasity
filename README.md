@@ -5,7 +5,11 @@
 
 # CSS-Week2
 
-<img width="1437" alt="Screenshot 2025-05-20 at 20 54 06" src="https://github.com/user-attachments/assets/72c96a2a-b34b-4c0b-aef3-9506e00d9ed0" />
+<img width="1438" alt="Screenshot 2025-05-20 at 21 39 43" src="https://github.com/user-attachments/assets/f99a3047-3e56-4621-b4c2-0c212176a53b" />
+
+<img width="1440" alt="Screenshot 2025-05-20 at 21 40 58" src="https://github.com/user-attachments/assets/391a3976-7ccf-4436-94e8-9be17fff38c6" />
+
+
 
 # FNB Academy | IT Vasity Programme
 
