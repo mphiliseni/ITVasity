@@ -4,7 +4,13 @@ Welcome to the  **Pine City Zoo** web application! This project is an engaging a
 
  <img width="1421" alt="Screenshot 2025-05-22 at 22 27 58" src="https://github.com/user-attachments/assets/e0c54462-ab33-4337-8ff9-c0c62bd92cee" />
 
+ 
+
  <img width="1422" alt="Screenshot 2025-05-22 at 22 28 16" src="https://github.com/user-attachments/assets/42e66577-fde5-4009-8ce1-430406119da5" />
+
+
+
+<img width="1439" alt="Screenshot 2025-05-22 at 22 43 10" src="https://github.com/user-attachments/assets/ff2a7d3e-49bb-4cfe-946a-b5fb460d77e3" />
 
 
 
