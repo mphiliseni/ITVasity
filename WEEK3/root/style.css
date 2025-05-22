@@ -1,0 +1,75 @@
+body {
+    font-family: Tahoma, Arial, sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif !important;
+    font-size: 16px;
+    color: burlywood;
+    background: white;
+    margin: 8px;
+}
+
+  .footer {
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.3);
+    z-index: 1030;
+  }
+
+  .animated-btn {
+    background: #8B4513;
+    color: white;
+    border: none;
+    transition: all 0.3s ease;
+    border-radius: 25px;
+    padding: 10px 20px;
+  }
+
+  .animated-btn:hover {
+    background: #A0522D;
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(255, 255, 255, 0.2);
+  }
+  body {
+    background: url('https://images.unsplash.com/photo-1747619715083-3db63905a75a?q=80&w=3087&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D') no-repeat center center fixed;
+    background-size: cover;
+    color: #000;
+    font-family: 'Arial', sans-serif;
+    padding-top: 70px;
+  }
+
+  .weather-card {
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    color: #fff;
+    padding: 1.5rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+  }
+
+  #weather-desc {
+    font-size: 1.1rem; /* Keep weather description moderate */
+    font-weight: 500;
+    word-wrap: break-word;
+  }
+
+  #weather-temp {
+    font-size: 1.5rem;
+    font-weight: 600;
+  }
+
+  #weather-icon {
+    width: 100px;
+    height: 100px;
+  }
+
+  @media (max-width: 768px) {
+    #weather-desc, #weather-temp {
+      font-size: 1rem;
+    }
+
+    #weather-icon {
+      width: 70px;
+      height: 70px;
+    }
+  }
+
+  .forecast-icon {
+    width: 40px;
+    height: 40px;
+  }
