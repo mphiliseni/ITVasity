@@ -73,4 +73,9 @@ body {
     width: 40px;
     height: 40px;
   }
+  .pangolin-regular {
+    font-family: "Pangolin", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
   
