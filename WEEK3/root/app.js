@@ -1,6 +1,6 @@
 // <!-- Scripts -->
 
-  const apiKey = 'YOUR_API_KEY'; // Replace with your OpenWeatherMap API key
+  const apiKey = '1efe8cae90003f7f5e3bc3034841b9da'; // Replace with your OpenWeatherMap API key
 
   const days = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday'];
   const now = new Date();

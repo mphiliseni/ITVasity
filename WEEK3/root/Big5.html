@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Animal Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<header>
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" style="background-color: #8B4513;">
+        <div class="container-fluid">
+            <!-- Toggle button for mobile -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Centered Navbar Links -->
+            <div class="collapse navbar-collapse justify-content-center" id="navbarContent">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="zoo.html">Pine City Zoo</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="animals.html">Animals</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Places</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">The Big 5</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    </nav>
+</header>
+
+<body>
+    <div class="container py-5">
+        <h1 class="text-center mb-4 display-4 fw-bold text-light">🇿🇦 South Africa's Big 5</h1>
+        <div class="row g-4">
+    
+          <!-- Lion Card -->
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Lion_waiting_in_Namibia.jpg" class="card-img-top" alt="Lion">
+              <div class="card-body">
+                <h5 class="card-title">🦁 Lion</h5>
+                <p class="card-text">Known as the 'king of the jungle', lions are powerful and social big cats.</p>
+                <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#lionModal">Read more...</button>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Elephant Card -->
+          <div class="col-md-4">
+            <div class="card h-100">
+              <img src="https://cdn.pixabay.com/photo/2013/05/29/22/25/elephant-114543_1280.jpg" class="card-img-top" alt="Elephant">
+              <div class="card-body">
+                <h5 class="card-title">🐘 Elephant</h5>
+                <p class="card-text">The African elephant is the largest land animal on Earth.</p>
+                <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#elephantModal">Read more...</button>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Leopard Card -->
+          <div class="col-md-4">
+            <div class="card h-100">
+                <img src="https://cdn.pixabay.com/photo/2014/07/23/19/31/leopard-400400_1280.jpg" class="card-img-top" alt="Leopard">
+                <div class="card-body">
+                <h5 class="card-title">🐆 Leopard</h5>
+                <p class="card-text">Stealthy and elusive, leopards are expert climbers and hunters.</p>
+                <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#leopardModal">Read more...</button>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Rhino Card -->
+          <div class="col-md-6">
+            <div class="card h-100">
+              <img src="https://cdn.pixabay.com/photo/2018/10/19/10/35/rhino-3758352_1280.jpg" class="card-img-top" alt="Rhino">
+              <div class="card-body">
+                <h5 class="card-title">🦏 Rhinoceros</h5>
+                <p class="card-text">Rhinos are heavy, horned giants and symbols of African wilderness.</p>
+                <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#rhinoModal">Read more...</button>
+              </div>
+            </div>
+          </div>
+    
+          <!-- Buffalo Card -->
+          <div class="col-md-6">
+            <div class="card h-100">
+              <img src="https://cdn.pixabay.com/photo/2022/06/22/10/46/buffalo-7277662_1280.jpg" class="card-img-top" alt="Buffalo">
+              <div class="card-body">
+                <h5 class="card-title">🐃 Buffalo</h5>
+                <p class="card-text">The African buffalo is strong, social, and one of the most dangerous animals in Africa.</p>
+                <button class="btn btn-warning" data-bs-toggle="modal" data-bs-target="#buffaloModal">Read more...</button>
+              </div>
+            </div>
+          </div>
+    
+        </div>
+      </div>
+    
+      <!-- MODALS -->
+      <!-- Lion Modal -->
+      <div class="modal fade" id="lionModal" tabindex="-1" aria-labelledby="lionModalLabel" aria-hidden="true">
+        <div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Lion</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+          <div class="modal-body">
+            Lions are social animals that live in groups called prides. They are apex predators and often symbolize strength and courage. Mostly found in Kruger National Park and other reserves.
+          </div></div></div>
+      </div>
+    
+      <!-- Elephant Modal -->
+      <div class="modal fade" id="elephantModal" tabindex="-1" aria-labelledby="elephantModalLabel" aria-hidden="true">
+        <div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Elephant</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+          <div class="modal-body">
+            African elephants are intelligent and gentle giants, often seen in family herds. Their tusks and large ears are distinctive features. Sadly, they're under threat due to poaching.
+          </div></div></div>
+      </div>
+    
+      <!-- Leopard Modal -->
+      <div class="modal fade" id="leopardModal" tabindex="-1" aria-labelledby="leopardModalLabel" aria-hidden="true">
+        <div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Leopard</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+          <div class="modal-body">
+            Leopards are solitary and stealthy cats. They're agile climbers and often drag their prey into trees to avoid scavengers. Spotting one in the wild is a rare and special event.
+          </div></div></div>
+      </div>
+    
+      <!-- Rhino Modal -->
+      <div class="modal fade" id="rhinoModal" tabindex="-1" aria-labelledby="rhinoModalLabel" aria-hidden="true">
+        <div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Rhinoceros</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+          <div class="modal-body">
+            South Africa is home to both black and white rhinos. Their horns make them targets for poaching, but conservation efforts are ongoing to protect them.
+          </div></div></div>
+      </div>
+    
+      <!-- Buffalo Modal -->
+      <div class="modal fade" id="buffaloModal" tabindex="-1" aria-labelledby="buffaloModalLabel" aria-hidden="true">
+        <div class="modal-dialog"><div class="modal-content"><div class="modal-header"><h5 class="modal-title">Buffalo</h5><button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button></div>
+          <div class="modal-body">
+            African buffalo are known for their brute strength and unpredictable nature. They are herd animals and can be extremely dangerous when threatened.
+          </div></div></div>
+      </div>
+
+
+    <script src="app.js"></script>
+
+
+</body>
+<!-- Footer -->
+<footer class="footer fixed-bottom bg-dark text-white py-2">
+    <div class="container d-flex justify-content-center gap-3">
+        <a href="#" class="btn animated-btn">The Big 5</button>
+            <a href="weather.html" class="btn animated-btn">Weather</button>
+                <a href="#" class="btn animated-btn">Feedback</a>
+            </a>
+        </a>    
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>
