@@ -2,15 +2,27 @@
 
 Welcome to the  **Pine City Zoo** web application! This project is an engaging and informative platform built to showcase animals, share weather information, and enhance the visitor experience at the Pine City Zoo.
 
- <img width="1421" alt="Screenshot 2025-05-22 at 22 27 58" src="https://github.com/user-attachments/assets/e0c54462-ab33-4337-8ff9-c0c62bd92cee" />
 
- 
-
- <img width="1422" alt="Screenshot 2025-05-22 at 22 28 16" src="https://github.com/user-attachments/assets/42e66577-fde5-4009-8ce1-430406119da5" />
+ <img width="1438" alt="Screenshot 2025-05-23 at 20 35 50" src="https://github.com/user-attachments/assets/f3171407-68f7-414d-b2a2-f9a4ae5e7031" />
 
 
 
-<img width="1439" alt="Screenshot 2025-05-22 at 22 43 10" src="https://github.com/user-attachments/assets/ff2a7d3e-49bb-4cfe-946a-b5fb460d77e3" />
+
+
+
+  <img width="1421" alt="Screenshot 2025-05-22 at 22 27 58" src="https://github.com/user-attachments/assets/e0c54462-ab33-4337-8ff9-c0c62bd92cee" />
+
+
+
+
+
+
+
+<img width="1440" alt="Screenshot 2025-05-23 at 20 36 49" src="https://github.com/user-attachments/assets/b38f9777-3c14-4e4e-b6f1-d79295814fdf" />
+
+
+
+<img width="1440" alt="Screenshot 2025-05-23 at 20 37 09" src="https://github.com/user-attachments/assets/f77ea732-1e08-4004-8641-972992e76c24" />
 
 
 
