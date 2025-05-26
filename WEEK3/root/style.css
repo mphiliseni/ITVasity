@@ -77,4 +77,104 @@ body {
     font-weight: 400;
     font-style: normal;
   }
-  
+  .site-title {
+    font-size: 1.8rem;
+    font-weight: bold;
+  }
+
+  /* Reset and base styling */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+.site-title {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.hero-section {
+  background: url('mountains.jpg') no-repeat center center/cover;
+  height: calc(100vh - 120px);
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.4);
+  padding: 2rem;
+  border-radius: 12px;
+  text-align: center;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #f3f3f3;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  background-color: #9b450f;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 30px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #bf5e20;
+}
+
+footer {
+  background-color: #222;
+  text-align: center;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .navbar {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .buttons {
+    flex-direction: column;
+  }
+}
+form {
+  max-width: 400px;
+  margin: auto;
+}
+label, input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.message {
+  margin-top: 20px;
+  color: green;
+}
