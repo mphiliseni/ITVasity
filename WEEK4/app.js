@@ -12,7 +12,7 @@ function MyFunction() {
 }
 
 //comfirm alert
-function comfirmFunction() {
+function confirmFunction() {
     var result = confirm("Are you sure you want to continue?");
     if (result) {
         alert("You pressed OK!");
@@ -21,6 +21,7 @@ function comfirmFunction() {
     }
     document.getElementById("confirm").innerHTML = result ? "You pressed OK!" : "You pressed Cancel!";
 }
+
 
 //prompt alert
 function promptFunction() {
@@ -48,3 +49,10 @@ var userDetails = {
     age: 30,
     isStudent: false
 }
+
+
+//function
+
+function showMessage() {
+    document.getElementById("output").textContent = "🎉 Great job! You just ran JavaScript!";
+  }

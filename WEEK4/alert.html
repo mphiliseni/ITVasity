@@ -44,31 +44,79 @@
 </header>
 
 <body>
-    <!-- alert button -->
-    <div class="container mt-5 pt-5">
+    <!-- Content -->
+  <main class="container mt-5 pt-5">
+    <!-- Alert Box -->
+    <div class="my-4 p-4 bg-light rounded shadow-sm">
+      <h2 class="mb-3">Alert Button 😑</h2>
+      <button type="button" class="btn btn-primary" onclick="MyFunction()">Try Me!</button>
+       <!-- add pre -->
+        <pre class="mt-3 p-3 bg-secondary text-white rounded">
+                <code>
+                function MyFunction() {
+                    alert("Hello! I am an alert box!");
+                }
+                </code>
+    </div>
 
-        <h2>Alert button 😑</h2>
+    <!-- Confirm Box -->
+    <div class="my-4 p-4 bg-light rounded shadow-sm">
+      <h2 class="mb-3">Confirm Box 🥴</h2>
+      <p id="confirm" class="fw-semibold"></p>
+      <button type="button" class="btn btn-warning text-white" onclick="confirmFunction()">Try It!</button>
+       <!-- add pre -->
+        <pre class="mt-3 p-3 bg-secondary text-white rounded">
+            <code>
+            function confirmFunction() {
+                let r = confirm("Press a button!");
+                if (r == true) {
+                    document.getElementById("confirm").innerHTML = "You pressed OK!";
+                } else {
+                    document.getElementById("confirm").innerHTML = "result ? You pressed Cancel! | You pressed Cancel!";
+                }
+            }
+            </code>
+        </pre>
+    </div>
 
-        <button type="button" class="btn btn-primary" onclick="MyFunction()">Try Me!</button>
+    <!-- Prompt Box -->
+    <div class="my-4 p-4 bg-light rounded shadow-sm">
+      <h2 class="mb-3">Prompt Box 🥱</h2>
+      <p id="prompt" class="fw-semibold"></p>
+      <button type="button" class="btn btn-success" onclick="promptFunction()">Try It!</button>
+
+      <!-- add pre -->
+        <pre class="mt-3 p-3 bg-secondary text-white rounded">
+            <code>
+            function promptFunction() {
+                let name = prompt("Please enter your name:");
+                if (name != null) {
+                document.getElementById("prompt").innerHTML = "Hello " + name + "! How are you today?";
+                }
+            }
+            </code>
     </div>
-    <!-- confirm box -->
-    <div class="container mt-5">
-        <h2>Confirm Box 🥴</h2>
-        <p id="confirm"></p>
-        <button type="button" class="btn btn-warning" onclick="comfirmFunction()">Try It!</button>
+
+    <!-- Console Log -->
+    <div class="my-4 p-4 bg-light rounded shadow-sm">
+      <h2 class="mb-3">Console Log 🥵</h2>
+      <p id="console" class="fw-semibold"></p>
+      <button type="button" class="btn btn-danger" onclick="consoleFunction()">Try It!</button>
+        <!-- add pre -->
+            <pre class="mt-3 p-3 bg-secondary text-white rounded">
+                <code>
+                function consoleFunction() {
+                    console.log("Hello! This is a console log message.");
+                    document.getElementById("console").innerHTML = "Welcome to WEEK 4 Paw Paw!";
+                }
+                </code>
+            </pre>
     </div>
-    <!-- prompt box -->
-    <div class="container mt-5">
-        <h2>Prompt Box 🥱</h2>
-        <p id="prompt"></p>
-        <button type="button" class="btn btn-success" onclick="promptFunction()">Try It!</button>
-    </div>
-    <!-- console log -->
-    <div class="container mt-5">
-        <h2>Console Log 🥵</h2>
-        <p id="console"></p>
-        <button type="button" class="btn btn-danger" onclick="consoleFunction()">Try It!</button>
-    </div>
+  </main>
+  <!-- next tab btnlink -->
+  <div class="container mt-5 pt-5" style="text-align: center;">
+    <a href="alert.html">Go to Alert Box</a>
+</div>
     <script src="app.js"></script>
 </body>
 
