@@ -1,0 +1,17 @@
+/* Apply a single font for the entire website */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 1rem;
+    font-size: 0.9rem;
+  }
