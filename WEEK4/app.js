@@ -40,15 +40,7 @@ function consoleFunction() {
 }
 
 // variables and data types
-var myString = "Hello, World!";
-var myNumber = 28;
-var myBoolean = true;
-var myArray = ["apple", "banana", "cherry"];
-var userDetails = {
-    name: "Bob Smith",
-    age: 30,
-    isStudent: false
-}
+
 
 
 //function
@@ -56,3 +48,12 @@ var userDetails = {
 function showMessage() {
     document.getElementById("output").textContent = "🎉 Great job! You just ran JavaScript!";
   }
+
+  //confitt
+  function launchConfetti() {
+    confetti({
+        particleCount: 150,
+        spread: 70,
+        origin: { y: 0.6 }
+    });
+}
