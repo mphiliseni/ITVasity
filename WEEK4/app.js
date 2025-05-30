@@ -57,3 +57,9 @@ function showMessage() {
         origin: { y: 0.6 }
     });
 }
+function MyFunction() {
+    var x = 5; // Declare a variable
+    var y = 10; // Declare another variable
+    var z = x + y; // Add the two variables
+    alert("The sum of x and y is: " + z); // Show the result in an alert box
+}
